@@ -19,7 +19,7 @@ Ideal für Unternehmen, IT-Administratoren oder Service-Desks, um konsistente Si
 ├── Templatefiles/
 │   └── YourDomain_template.html
 ├── Logs/
-├── assets/
+├── assets/pictures
 └── example-config.ps1
 ```
 
@@ -30,7 +30,7 @@ Alle Parameter kannst du per `example-config.ps1` setzen.
 ## 🔣 Platzhalter in Templates
 
 ```
-$givenName, $sn, $department, $mail, ...
+$givenName, $sn, $department, $mail, $description, $telephonenumer, $sAMAccountName
 ```
 
 ## 📂 Beispieltemplate (HTML)
